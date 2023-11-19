@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etude de cas</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="acceuil.html">Accueil</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <img src="img.jpg" alt="Logo">
+        <hr>
+    </header>
+
+    <h3>Inscription</h3>
+    <form>
+        <label>FirstName:*</label>
+        <input placeholder="Veuillez saisir le nom" type="text" required minlength="3" maxlength="50" value="test" readonly>
+        <br>
+
+        <label>Lastname:</label>
+        <input type="text">
+        <br>
+
+        <label>Adress:</label>
+        <textarea></textarea>
+        <br>
+
+        <label>Phone Number</label>
+        <input type="tel">
+        <br>
+
+        <label>Date of birth</label>
+        <input type="date">
+        <br>
+
+        <label>Email</label>
+        <input type="email">
+        <br>
+
+        <label>Password</label>
+        <input type="password">
+        <br>
+
+        <label>Confirm Password</label>
+        <input type="password">
+        <br>
+
+        <label>Pays </label>
+        <select>
+            <option>France</option>
+            <option selected>Tunisie</option>
+            <option>Canada</option>
+        </select>
+        <br>
+
+        <label>Loisirs</label>
+        <input type="checkbox" checked> Sport
+        <input type="checkbox" checked> Musique
+        <br>
+
+        <label>Genre</label>
+        <input type="radio" checked>Homme
+        <input type="radio">Femme
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+
+    <section>
+        <h3>A propos</h3>
+        <p>Le HTML5, pour HyperText Markup Language 5, est une version du célèbre format HTML utilisé pour concevoir
+            les sites Internet. Celui-ci se résume à un langage de balisage qui sert à l'écriture de l'hypertexte
+            indispensable à la mise en forme d'une page Web. Lancée en octobre 2014, cette version HTML5 apporte de
+            nouveaux éléments et de nouveaux attributs par rapport à la version précédente. Elle offre par exemple la
+            possibilité de définir le contenu principal d'une page Web, d'ajouter une introduction en header, d'insérer
+            un sous-titre à un contenu multimédia de type vidéo, etc.</p>
+    </section>
+
+    <section>
+        <h3>Nos projets</h3>
+        <table>
+            <tr>
+                <td><img src="img_1.jpg" width="150px" height="150px" alt="Projet 1"></td>
+                <td><img src="img_2.png" width="150px" height="150px" alt="Projet 2"></td>
+                <td><img src="img_3.png" width="150px" height="150px" alt="Projet 3"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Le HTML5, pour HyperText Markup Language 5</p>
+                </td>
+                <td>
+                    <p>Le HTML5, pour HyperText Markup Language 5</p>
+                </td>
+                <td>
+                    <p>Le HTML5, pour HyperText Markup Language 5</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <h3>Contactez nous</h3>
+        <a href="mailto:esprit@esprit.tn">esprit:esprit@esprit.tn</a>
+        <address align="left">Notre adresse</address>
+    </footer>
+
+</body>
+
+</html>
